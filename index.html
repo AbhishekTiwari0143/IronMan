@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>IRON MAN</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Iron_Man_Logo_-_Disney%2B.png/800px-Iron_Man_Logo_-_Disney%2B.png?20210130031704"
+          alt="Image-Logo" class="logo">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Service</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Iron Man Suits</p>
+        <h1>Hi, I'm <span>Iron Man</span></h1>
+      </div>
+    </div>
+  </div>
+  <!-- header ends here -->
+  <!-- about me section starts -->
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="https://images.bravo.de/tony-stark,id=667f11fb,b=bravo,w=560,rm=sk.webp">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>"My armor, it was never a distraction or a hobby, it was a cocoon. And now, I'm a changed man. You can take
+            away my house, all my tricks and toys. But one thing you can't take away... I am Iron Man."
+            ―Tony Stark</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('movies')">Movies</p>
+            <p class="tab-links" onclick="opentab('games')">Games</p>
+            <p class="tab-links" onclick="opentab('tvseries')">TV series</p>
+          </div>
+          <!-- tab content one -->
+          <div class="tab-contents active-tab" id="movies">
+            <ul>
+              <li><span>Movies</span><br> Iron man</li>
+              <li> Iron Man 2 </li>
+              <li>Iron Man 3</li>
+            </ul>
+          </div>
+          <!-- tab content 2 -->
+          <div class="tab-contents" id="games">
+            <ul>
+              <li><span>Games</span>Iron Man</li>
+              <li>The Incredible Hulk </li><br>
+              <li>Iron Man 3 - The Official Game </li>
+            </ul>
+          </div>
+          <!-- tab content 3 -->
+          <div class="tab-contents" id="tvseries">
+            <ul>
+              <li><span>Movies</span><br> Iron man <br>Iron Man 2 <br> Iron Man 3</li>
+              <li> <span>Game</span> <br>
+                Iron Man <br>
+                The Incredible Hulk <br>
+                Iron Man 3 - The Official Game </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
